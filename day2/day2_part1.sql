@@ -1,3 +1,5 @@
+CREATE TABLE IF NOT EXISTS commands(id int, direction varchar(255), unit int);
+
 SELECT
 	SUM
 	(CASE
