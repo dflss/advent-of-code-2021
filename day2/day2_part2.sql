@@ -37,11 +37,11 @@ direction_with_vertical_change AS (
 )
 SELECT
 	SUM
-		(CASE
-			WHEN direction = 'forward' THEN unit
-			ELSE 0
-			END
-		)
+	(CASE
+		WHEN direction = 'forward' THEN unit
+		ELSE 0
+		END
+	)
 	*
 	(MAX(ARRAY[id, vertical]))[2]
 FROM direction_with_vertical_change
