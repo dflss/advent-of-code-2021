@@ -27,6 +27,3 @@ final_position AS(
 SELECT
 	vertical * horizontal
 FROM final_position
-
-		 
-
