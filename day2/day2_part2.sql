@@ -45,4 +45,3 @@ SELECT
 	*
 	(MAX(ARRAY[id, vertical]))[2]
 FROM direction_with_vertical_change
-
